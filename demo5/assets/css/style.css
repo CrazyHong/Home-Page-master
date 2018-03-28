@@ -1,0 +1,678 @@
+/*
+* ----------------------------------------------------------------------------------------
+* 01.general style
+* ----------------------------------------------------------------------------------------
+*/
+body {
+    font-family: 'cousine',sans-serif;
+    font-size: 13px;
+    color: #93989b;
+    overflow-x: hidden;
+    margin: auto;
+    background: #fff;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #333;
+    font-family: "montserrat",sans-serif;    
+}
+
+a {
+    font-family: "montserrat",sans-serif;
+    text-decoration: none;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+    a:hover {
+        text-decoration: none;
+    }
+
+    a:focus {
+        outline: none;
+        text-decoration: none;
+    }
+
+p {
+    line-height: 2;
+    margin-bottom: 0;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+fieldset {
+    border: 0 none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.no-padding {
+    padding:0 !important;
+}
+
+.section-padding {
+    padding: 60px 0;
+}
+
+.header-logo {
+    color: #5bb12f !important;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.back-to-top {
+    position: fixed;
+    right: 20px;
+    bottom: 5px;
+    width: 50px;
+    height: 50px;
+    line-height: 47px;
+    font-size: 15px;
+    color: #fff;
+    background-color: #5bb12f;
+    border: 1px solid transparent;
+    text-align: center;
+    cursor: pointer;
+    display: none;
+}
+
+    .back-to-top.action-show {
+        display: block;
+    }
+
+/*start section title design*/
+.section-title {
+    margin-bottom: 60px;
+}
+
+    .section-title h2 {
+        color: #333;
+        margin: 0;
+        text-transform: uppercase;
+        padding-bottom: 10px;
+        position: relative;
+    }
+
+@media only screen and (max-width:768px) {
+    .section-title h2 {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .section-title h2 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width:360px) {
+    .section-title h2 {
+        font-size: 24px;
+    }
+}
+
+.section-title span {
+    background: #5bb12f none repeat scroll 0 0;
+    display: block;
+    height: 2px;
+    margin: 15px auto;
+    width: 70px;
+    position: relative;
+}
+
+.section-title-white {
+    color: #fff !important;
+    position: relative;
+}
+
+.section-title-white-span {
+    background: #fff !important;
+    position: relative;
+}
+
+.section-title p {
+    margin: auto;
+    padding: 0 20px;
+    width: 70%;
+}
+
+@media only screen and (max-width:768px) {
+    .section-title p {
+        width: 100%;
+    }
+}
+/*end section title design*/
+/*
+* ----------------------------------------------------------------------------------------
+* 01.end general style
+* ----------------------------------------------------------------------------------------
+*/
+
+/*
+* ----------------------------------------------------------------------------------------
+* 02. start bootstrap navigation overrides
+* ----------------------------------------------------------------------------------------
+*/
+.navbar-default {
+    border: none;
+    border-radius: 0;
+    margin-bottom: 0;
+    width: 100%;
+    padding: 20px 0;
+    background: #fff;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+}
+
+    .navbar-default .navbar-nav > .active > a,
+    .navbar-default .navbar-nav > .active > a:hover,
+    .navbar-default .navbar-nav > .active > a:focus {
+        color: #5bb12f !important;
+        background-color: transparent;
+    }
+
+    .navbar-default .navbar-nav > .open > a,
+    .navbar-default .navbar-nav > .open > a:hover,
+    .navbar-default .navbar-nav > .open > a:focus {
+        color: #5bb12f !important;
+        background-color: transparent;
+    }
+
+.navbar-brand {
+    padding: 0px;
+}
+
+    .navbar-brand img {
+        width: 150px;
+        margin-left: 10px;
+    }
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border-color: #fff;
+}
+
+.menu-top {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+}
+
+    .menu-top li a {
+        color: #fff !important;
+        font-size: 12px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+
+        .menu-top li a:hover {
+            color: #5bb12f !important;
+        }
+
+@media only screen and (max-width:768px) {
+    .navbar-default .navbar-nav > li > a {
+        margin-top: 10px;
+        padding: 8px;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .menu-top {
+        background-color: #fff;
+    }
+
+    .navbar-default .navbar-nav > li > a {
+        color: #313131 !important;
+    }
+}
+
+.navbar-default.menu-shrink {
+    background-color: #fff;
+    box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+    width: 100%;
+}
+
+@media only screen and (max-width:480px) {
+    .menu-top {
+        color: #fff !important;
+        margin-left: 0px;
+    }
+}
+
+.navbar-default.menu-shrink li a {
+    color: #313131 !important;
+}
+
+    .navbar-default.menu-shrink li a:hover {
+        color: #5bb12f !important;
+    }
+
+.navbar-default .navbar-toggle {
+    background: #fff none repeat scroll 0 0;
+}
+
+    .navbar-default .navbar-toggle:hover,
+    .navbar-default .navbar-toggle:focus {
+        background-color: #fff;
+    }
+
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #5bb12f;
+    }
+/*
+* ----------------------------------------------------------------------------------------
+* 02.end bootstrap navigation overrides
+* ----------------------------------------------------------------------------------------
+*/
+
+/*
+* ----------------------------------------------------------------------------------------
+* 03.start home design
+* ----------------------------------------------------------------------------------------
+*/
+.welcome-area,
+.welcome-slider-area,
+.welcome-slider-area div {
+    height: 70vh;
+}
+
+    .welcome-slider-area div.single-slide-item-tablecell,
+    .welcome-slider-area div.single-slide-item-tablecell div {
+        height: auto;
+    }
+
+.single-slide-item-table {
+    display: table;
+    text-align: center;
+    width: 100%;
+}
+
+.single-slide-item-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.single-slide-item {
+    position: relative;
+    z-index: 1;
+}
+
+    .single-slide-item:after {
+        position: absolute;
+        background: rgba(0,0,0,0.53);
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        content: "";
+        z-index: -1;
+    }
+
+.slide-1 {
+    background: url(../img/bg/farm_slideshow1.jpg) scroll 0 0;
+    background-size: cover;
+}
+
+.slide-2 {
+    background: url(../img/bg/farm_slideshow2.jpg) scroll 0 0;
+    background-size: cover;
+}
+
+.slide-3 {
+    background: url(../img/bg/farm_slideshow3.jpg) scroll 0 0;
+    background-size: cover;
+}
+
+.slide-4 {
+    background: url(../img/bg/farm_slideshow4.jpg) scroll 0 0;
+    background-size: cover;
+}
+
+.slide-5 {
+    background: url(../img/bg/farm_slideshow5.jpg) scroll 0 0;
+    background-size: cover;
+}
+
+.carousel-fade .carousel-inner .item {
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+}
+
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+    opacity: 0;
+    -ms-filter: "progid:dximagetransform.microsoft.alpha(opacity=0)";
+    filter: alpha(opacity=0);
+}
+
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+    opacity: 1;
+    -ms-filter: "progid:dximagetransform.microsoft.alpha(opacity=100)";
+    filter: alpha(opacity=100);
+}
+
+    .carousel-fade .carousel-inner .next,
+    .carousel-fade .carousel-inner .prev,
+    .carousel-fade .carousel-inner .active.left,
+    .carousel-fade .carousel-inner .active.right {
+        left: 0;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+
+.single-slide-item h2 {
+    color: #f8f8f8;
+    font-size: 40px;
+    margin-top: 0;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.single-slide-item p {
+    color: #fff;
+    margin: auto auto 30px;
+    width: 70%;
+}
+
+@media only screen and (max-width:768px) {
+    .single-slide-item p {
+        width: 100%;
+    }
+}
+
+.carousel-indicators-slider {
+    bottom: 30px !important;
+}
+
+.btn-home-bg {
+    background: #5bb12f none repeat scroll 0 0;
+    border: 2px solid #5bb12f;
+    border-radius: 0;
+    color: #fff;
+    font-family: montserrat,sans-serif;
+    font-size: 12px;
+    padding: 12px 30px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.2s ease 0s;
+    transition: all 0.2s ease 0s;
+}
+
+    .btn-home-bg:hover,
+    .btn-home-bg:focus {
+        background: #fff;
+        color: #333;
+        border: 2px solid #fff;
+    }
+
+/*
+* ----------------------------------------------------------------------------------------
+* 03.end home design
+* ----------------------------------------------------------------------------------------
+*/
+
+
+/*
+* ----------------------------------------------------------------------------------------
+* 04.start features design
+* ----------------------------------------------------------------------------------------
+*/
+.single_feature {
+    padding: 70px 20px;
+    background: #f9f9f9;
+    position: relative;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.single_feature_color_one {
+    background: #f2f2f2;
+}
+
+.single_feature_color_two {
+    background: #ededed;
+}
+
+.single_feature_color_three {
+    background: #e8e8e8;
+}
+
+.single_feature_color_four {
+    background: #e3e3e3;
+}
+
+.single_feature i {
+    background: #5bb12f none repeat scroll 0 0;
+    border-radius: 30px;
+    box-shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.1);
+    color: #fff;
+    font-size: 18px;
+    height: 55px;
+    line-height: 55px;
+    margin-bottom: 20px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    width: 55px;
+}
+
+.single_feature:hover {
+    background: #5bb12f none repeat scroll 0 0;
+}
+
+    .single_feature:hover i {
+        color: #5bb12f;
+    }
+
+.single_feature h4 {
+    font-size: 16px;
+    margin-top: 0;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    text-transform: uppercase;
+}
+
+.single_feature p {
+    margin-bottom: 0;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.single_feature:hover i {
+    box-shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.1);
+    background: #fff;
+    color: #5bb12f;
+}
+
+.single_feature:hover h4 {
+    color: #fff;
+}
+
+.single_feature:hover p {
+    color: #fff;
+}
+/*
+* ----------------------------------------------------------------------------------------
+* 04.end features design
+* ----------------------------------------------------------------------------------------
+*/
+
+
+/*
+* ----------------------------------------------------------------------------------------
+* 05.start specific report design
+* ----------------------------------------------------------------------------------------
+*/
+.specific_report {
+    position: relative;
+}
+
+    .specific_report:before {
+        background: rgba(0, 0, 0, 0.8);
+        content: "";
+        height: 100%;
+        left: 0;
+        opacity: 0.8;
+        -ms-filter: "progid:dximagetransform.microsoft.alpha(opacity=80)";
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+
+/*
+* ----------------------------------------------------------------------------------------
+* 05.end service design
+* ----------------------------------------------------------------------------------------
+*/
+
+
+/*
+* ----------------------------------------------------------------------------------------
+* 06.start quick report design
+* ----------------------------------------------------------------------------------------
+*/
+.quick_report {
+    background: #f2f2f2 none repeat scroll 0 0;    
+}
+
+@media only screen and (max-width:768px) {
+    .counter {
+        margin-bottom: 20px;
+        overflow: hidden;
+    }
+}
+
+.counter i {
+    background: #5bb12f none repeat scroll 0 0;
+    border: 2px solid #5bb12f;
+    border-radius: 100px;
+    color: #fff;
+    font-size: 30px;
+    height: 70px;
+    line-height: 70px;
+    margin-bottom: 20px;
+    text-align: center;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    width: 70px;
+}
+
+.counter h2 {
+    color: #161616;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+.counter h5 {
+    color: #161616;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width:768px) {
+    .counter p {
+        font-size: 13px;
+    }
+}
+
+.counter:hover i {
+    background: none;
+    color: #5bb12f;
+    border: 2px solid #5bb12f;
+}
+/*
+* ----------------------------------------------------------------------------------------
+* 06.end counter design
+* ----------------------------------------------------------------------------------------
+*/
+
+/*
+* ----------------------------------------------------------------------------------------
+* 07.start trandency report design
+* ----------------------------------------------------------------------------------------
+*/
+.trandency_report {
+    position: relative;
+}
+
+    .trandency_report:before {
+        background: rgba(0, 0, 0, 0.2);
+        content: "";
+        height: 100%;
+        left: 0;
+        opacity: 0.8;
+        -ms-filter: "progid:dximagetransform.microsoft.alpha(opacity=80)";
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+/*
+* ----------------------------------------------------------------------------------------
+* 07.end skill design
+* ----------------------------------------------------------------------------------------
+*/
+
+/*
+* ----------------------------------------------------------------------------------------
+* 08.start footer design
+* ----------------------------------------------------------------------------------------
+*/
+.footer {
+    background: #222;
+}
+
+.footer_logo img {
+    margin-bottom: 30px;
+    width: 250px;
+}
+
+.companyname {
+    color: #888888;
+    line-height: 50px;
+}
+
+.icp-info {
+    font-size:13px;
+    padding-right:30px;
+}
+
+.copyright p {
+    border-top: 1px solid #1f2428;
+    font-size: 14px;
+    color: #eee;
+    margin-bottom: 0;
+    padding: 30px 0;
+}
+
+.copyright a {
+    color: #5bb12f;
+    font-family: "cousine",sans-serif;
+    -webkit-transition: all 0.2s ease 0s;
+    transition: all 0.2s ease 0s;
+}
+
+    .copyright a:hover {
+        color: #fff;
+    }
+/*
+* ----------------------------------------------------------------------------------------
+* 08.end footer design
+* ----------------------------------------------------------------------------------------
+*/

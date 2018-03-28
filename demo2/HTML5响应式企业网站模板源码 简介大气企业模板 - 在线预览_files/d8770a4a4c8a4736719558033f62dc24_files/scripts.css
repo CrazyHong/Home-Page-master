@@ -1,0 +1,795 @@
+.animated {
+	transform: translate3d(0px, 0px, 0px); animation-fill-mode: both; -webkit-transform: translate3d(0, 0, 0); -webkit-perspective: 1000; -moz-perspective: 1000; -webkit-animation-fill-mode: both; -o-animation-fill-mode: both; -o-transform: translate3d(0, 0, 0); -o-perspective: 1000; -moz-animation-fill-mode: both; -moz-transform: translate3d(0, 0, 0);
+}
+.flash.animated {
+	animation-name: flash; -webkit-animation-name: flash; -moz-animation-name: flash; -o-animation-name: flash;
+}
+.shake.animated {
+	animation-name: shake; -webkit-animation-name: shake; -moz-animation-name: shake; -o-animation-name: shake;
+}
+.bounce.animated {
+	animation-name: bounce; -webkit-animation-name: bounce; -moz-animation-name: bounce; -o-animation-name: bounce;
+}
+.tada.animated {
+	animation-name: tada; -webkit-animation-name: tada; -moz-animation-name: tada; -o-animation-name: tada;
+}
+.swing.animated {
+	transform-origin: center top; animation-name: swing; -webkit-transform-origin: top center; -webkit-animation-name: swing; -moz-animation-name: swing; -o-animation-name: swing; -moz-transform-origin: top center; -o-transform-origin: top center;
+}
+.wobble.animated {
+	animation-name: wobble; -webkit-animation-name: wobble; -moz-animation-name: wobble; -o-animation-name: wobble;
+}
+.pulse.animated {
+	animation-name: pulse; -webkit-animation-name: pulse; -moz-animation-name: pulse; -o-animation-name: pulse;
+}
+.flip.animated {
+	backface-visibility: visible !important; animation-name: flip; -webkit-backface-visibility: visible; -moz-backface-visibility: visible; -webkit-animation-name: flip; -moz-animation-name: flip; -o-animation-name: flip; -o-backface-visibility: visible;
+}
+.flipInX.animated {
+	backface-visibility: visible !important; animation-name: flipInX; -webkit-animation-name: flipInX; -moz-animation-name: flipInX; -o-animation-name: flipInX;
+}
+.flipInX.animated {
+	-webkit-backface-visibility: visible; -moz-backface-visibility: visible; -o-backface-visibility: visible;
+}
+.flipOutX.animated {
+	-webkit-backface-visibility: visible; -moz-backface-visibility: visible; -o-backface-visibility: visible;
+}
+.flipOutX.animated {
+	backface-visibility: visible !important; animation-name: flipOutX; -webkit-animation-name: flipOutX; -moz-animation-name: flipOutX; -o-animation-name: flipOutX;
+}
+.flipInY.animated {
+	backface-visibility: visible !important; animation-name: flipInY; -webkit-animation-name: flipInY; -moz-animation-name: flipInY; -o-animation-name: flipInY;
+}
+.flipInY.animated {
+	-webkit-backface-visibility: visible; -moz-backface-visibility: visible; -o-backface-visibility: visible;
+}
+.flipOutY.animated {
+	-webkit-backface-visibility: visible; -moz-backface-visibility: visible; -o-backface-visibility: visible;
+}
+.flipOutY.animated {
+	backface-visibility: visible !important; animation-name: flipOutY; -webkit-animation-name: flipOutY; -moz-animation-name: flipOutY; -o-animation-name: flipOutY;
+}
+.fadeIn.animated {
+	animation-name: fadeIn; -webkit-animation-name: fadeIn; -moz-animation-name: fadeIn; -o-animation-name: fadeIn;
+}
+.fadeInUp.animated {
+	animation-name: fadeInUp; -webkit-animation-name: fadeInUp; -moz-animation-name: fadeInUp; -o-animation-name: fadeInUp;
+}
+.fadeInDown.animated {
+	animation-name: fadeInDown; -webkit-animation-name: fadeInDown; -moz-animation-name: fadeInDown; -o-animation-name: fadeInDown;
+}
+.fadeInLeft.animated {
+	animation-name: fadeInLeft; -webkit-animation-name: fadeInLeft; -moz-animation-name: fadeInLeft; -o-animation-name: fadeInLeft;
+}
+.fadeInRight.animated {
+	animation-name: fadeInRight; -webkit-animation-name: fadeInRight; -moz-animation-name: fadeInRight; -o-animation-name: fadeInRight;
+}
+.fadeInUpBig.animated {
+	animation-name: fadeInUpBig; -webkit-animation-name: fadeInUpBig; -moz-animation-name: fadeInUpBig; -o-animation-name: fadeInUpBig;
+}
+.fadeInDownBig.animated {
+	animation-name: fadeInDownBig; -webkit-animation-name: fadeInDownBig; -moz-animation-name: fadeInDownBig; -o-animation-name: fadeInDownBig;
+}
+.fadeInLeftBig.animated {
+	animation-name: fadeInLeftBig; -webkit-animation-name: fadeInLeftBig; -moz-animation-name: fadeInLeftBig; -o-animation-name: fadeInLeftBig;
+}
+.fadeInRightBig.animated {
+	animation-name: fadeInRightBig; -webkit-animation-name: fadeInRightBig; -moz-animation-name: fadeInRightBig; -o-animation-name: fadeInRightBig;
+}
+.fadeOut.animated {
+	animation-name: fadeOut; -webkit-animation-name: fadeOut; -moz-animation-name: fadeOut; -o-animation-name: fadeOut;
+}
+.fadeOutUp.animated {
+	animation-name: fadeOutUp; -webkit-animation-name: fadeOutUp; -moz-animation-name: fadeOutUp; -o-animation-name: fadeOutUp;
+}
+.fadeOutDown.animated {
+	animation-name: fadeOutDown; -webkit-animation-name: fadeOutDown; -moz-animation-name: fadeOutDown; -o-animation-name: fadeOutDown;
+}
+.fadeOutLeft.animated {
+	animation-name: fadeOutLeft; -webkit-animation-name: fadeOutLeft; -moz-animation-name: fadeOutLeft; -o-animation-name: fadeOutLeft;
+}
+.fadeOutRight.animated {
+	animation-name: fadeOutRight; -webkit-animation-name: fadeOutRight; -moz-animation-name: fadeOutRight; -o-animation-name: fadeOutRight;
+}
+.fadeOutUpBig.animated {
+	animation-name: fadeOutUpBig; -webkit-animation-name: fadeOutUpBig; -moz-animation-name: fadeOutUpBig; -o-animation-name: fadeOutUpBig;
+}
+.fadeOutDownBig.animated {
+	animation-name: fadeOutDownBig; -webkit-animation-name: fadeOutDownBig; -moz-animation-name: fadeOutDownBig; -o-animation-name: fadeOutDownBig;
+}
+.fadeOutLeftBig.animated {
+	animation-name: fadeOutLeftBig; -webkit-animation-name: fadeOutLeftBig; -moz-animation-name: fadeOutLeftBig; -o-animation-name: fadeOutLeftBig;
+}
+.fadeOutRightBig.animated {
+	animation-name: fadeOutRightBig; -webkit-animation-name: fadeOutRightBig; -moz-animation-name: fadeOutRightBig; -o-animation-name: fadeOutRightBig;
+}
+.bounceIn.animated {
+	animation-name: bounceIn; -webkit-animation-name: bounceIn; -moz-animation-name: bounceIn; -o-animation-name: bounceIn;
+}
+.bounceInUp.animated {
+	animation-name: bounceInUp; -webkit-animation-name: bounceInUp; -moz-animation-name: bounceInUp; -o-animation-name: bounceInUp;
+}
+.bounceInDown.animated {
+	animation-name: bounceInDown; -webkit-animation-name: bounceInDown; -moz-animation-name: bounceInDown; -o-animation-name: bounceInDown;
+}
+.bounceInLeft.animated {
+	animation-name: bounceInLeft; -webkit-animation-name: bounceInLeft; -moz-animation-name: bounceInLeft; -o-animation-name: bounceInLeft;
+}
+.bounceInRight.animated {
+	animation-name: bounceInRight; -webkit-animation-name: bounceInRight; -moz-animation-name: bounceInRight; -o-animation-name: bounceInRight;
+}
+.bounceOut.animated {
+	animation-name: bounceOut; -webkit-animation-name: bounceOut; -moz-animation-name: bounceOut; -o-animation-name: bounceOut;
+}
+.bounceOutUp.animated {
+	animation-name: bounceOutUp; -webkit-animation-name: bounceOutUp; -moz-animation-name: bounceOutUp; -o-animation-name: bounceOutUp;
+}
+.bounceOutDown.animated {
+	animation-name: bounceOutDown; -webkit-animation-name: bounceOutDown; -moz-animation-name: bounceOutDown; -o-animation-name: bounceOutDown;
+}
+.bounceOutLeft.animated {
+	animation-name: bounceOutLeft; -webkit-animation-name: bounceOutLeft; -moz-animation-name: bounceOutLeft; -o-animation-name: bounceOutLeft;
+}
+.bounceOutRight.animated {
+	animation-name: bounceOutRight; -webkit-animation-name: bounceOutRight; -moz-animation-name: bounceOutRight; -o-animation-name: bounceOutRight;
+}
+.rotateIn.animated {
+	animation-name: rotateIn; -webkit-animation-name: rotateIn; -moz-animation-name: rotateIn; -o-animation-name: rotateIn;
+}
+.rotateInUpLeft.animated {
+	animation-name: rotateInUpLeft; -webkit-animation-name: rotateInUpLeft; -moz-animation-name: rotateInUpLeft; -o-animation-name: rotateInUpLeft;
+}
+.rotateInDownLeft.animated {
+	animation-name: rotateInDownLeft; -webkit-animation-name: rotateInDownLeft; -moz-animation-name: rotateInDownLeft; -o-animation-name: rotateInDownLeft;
+}
+.rotateInUpRight.animated {
+	animation-name: rotateInUpRight; -webkit-animation-name: rotateInUpRight; -moz-animation-name: rotateInUpRight; -o-animation-name: rotateInUpRight;
+}
+.rotateInDownRight.animated {
+	animation-name: rotateInDownRight; -webkit-animation-name: rotateInDownRight; -moz-animation-name: rotateInDownRight; -o-animation-name: rotateInDownRight;
+}
+.rotateOut.animated {
+	animation-name: rotateOut; -webkit-animation-name: rotateOut; -moz-animation-name: rotateOut; -o-animation-name: rotateOut;
+}
+.rotateOutUpLeft.animated {
+	animation-name: rotateOutUpLeft; -webkit-animation-name: rotateOutUpLeft; -moz-animation-name: rotateOutUpLeft; -o-animation-name: rotateOutUpLeft;
+}
+.rotateOutDownLeft.animated {
+	animation-name: rotateOutDownLeft; -webkit-animation-name: rotateOutDownLeft; -moz-animation-name: rotateOutDownLeft; -o-animation-name: rotateOutDownLeft;
+}
+.rotateOutUpRight.animated {
+	animation-name: rotateOutUpRight; -webkit-animation-name: rotateOutUpRight; -moz-animation-name: rotateOutUpRight; -o-animation-name: rotateOutUpRight;
+}
+.rotateOutDownRight.animated {
+	animation-name: rotateOutDownRight; -webkit-animation-name: rotateOutDownRight; -moz-animation-name: rotateOutDownRight; -o-animation-name: rotateOutDownRight;
+}
+.hinge.animated {
+	animation-name: hinge; -webkit-animation-name: hinge; -moz-animation-name: hinge; -o-animation-name: hinge;
+}
+.rollIn.animated {
+	animation-name: rollIn; -webkit-animation-name: rollIn; -moz-animation-name: rollIn; -o-animation-name: rollIn;
+}
+.rollOut.animated {
+	animation-name: rollOut; -webkit-animation-name: rollOut; -moz-animation-name: rollOut; -o-animation-name: rollOut;
+}
+.lightSpeedIn.animated {
+	animation-name: lightSpeedIn; animation-duration: 0.5s; animation-timing-function: ease-out; -webkit-animation-name: lightSpeedIn; -moz-animation-name: lightSpeedIn; -o-animation-name: lightSpeedIn; -webkit-animation-timing-function: ease-out; -moz-animation-timing-function: ease-out; -o-animation-timing-function: ease-out; -webkit-animation-duration: .5s; -moz-animation-duration: .5s; -o-animation-duration: .5s;
+}
+.lightSpeedOut.animated {
+	animation-name: lightSpeedOut; animation-duration: 0.25s; animation-timing-function: ease-in; -webkit-animation-name: lightSpeedOut; -moz-animation-name: lightSpeedOut; -o-animation-name: lightSpeedOut; -webkit-animation-duration: .25s; -moz-animation-duration: .25s; -o-animation-duration: .25s;
+}
+.lightSpeedOut.animated {
+	-webkit-animation-timing-function: ease-in; -moz-animation-timing-function: ease-in; -o-animation-timing-function: ease-in;
+}
+.wiggle.animated {
+	-webkit-animation-timing-function: ease-in; -moz-animation-timing-function: ease-in; -o-animation-timing-function: ease-in;
+}
+.wiggle.animated {
+	animation-name: wiggle; animation-duration: 0.75s; animation-timing-function: ease-in; -webkit-animation-name: wiggle; -moz-animation-name: wiggle; -o-animation-name: wiggle; -webkit-animation-duration: .75s; -moz-animation-duration: .75s; -o-animation-duration: .75s;
+}
+.fade.animated {
+	animation-name: fade; -webkit-animation-name: fade; -moz-animation-name: fade; -o-animation-name: fade;
+}
+.appear.animated {
+	animation-name: appear; -webkit-animation-name: appear; -moz-animation-name: appear; -o-animation-name: appear;
+}
+.spinner.animated {
+	animation-name: spinner; -webkit-animation-name: spinner; -moz-animation-name: spinner; -o-animation-name: spinner;
+}
+.twirlIn.animated {
+	animation-name: twirlIn; -webkit-animation-name: twirlIn; -moz-animation-name: twirlIn; -o-animation-name: twirlIn;
+}
+.twirlOut.animated {
+	animation-name: twirlOut; -webkit-animation-name: twirlOut; -moz-animation-name: twirlOut; -o-animation-name: twirlOut;
+}
+.slideInLeft.animated {
+	animation-name: slideInLeft; -webkit-animation-name: slideInLeft; -moz-animation-name: slideInLeft; -o-animation-name: slideInLeft;
+}
+.slideInRight.animated {
+	animation-name: slideInRight; -webkit-animation-name: slideInRight; -moz-animation-name: slideInRight; -o-animation-name: slideInRight;
+}
+#fancybox-loading {
+	left: 50%; top: 50%; width: 40px; height: 40px; overflow: hidden; margin-top: -20px; margin-left: -20px; display: none; position: fixed; z-index: 2104; cursor: pointer;
+}
+#fancybox-loading div {
+	left: 0px; top: 0px; position: absolute;
+}
+#fancybox-overlay {
+	left: 0px; top: 0px; position: absolute;
+}
+#fancybox-wrap {
+	left: 0px; top: 0px; position: absolute;
+}
+#fancybox-loading div {
+	width: 40px; height: 480px; background-image: url("../images/fancybox/fancybox.png");
+}
+#fancybox-overlay {
+	width: 100%; display: none; z-index: 2100;
+}
+#fancybox-tmp {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; overflow: auto; display: none;
+}
+#fancybox-wrap {
+	padding: 20px; outline: 0px; display: none; z-index: 2101; box-sizing: content-box; -webkit-box-sizing: content-box; -moz-box-sizing: content-box;
+}
+#fancybox-outer {
+	background: rgb(255, 255, 255); border-radius: 4px; width: 100%; height: 100%; box-sizing: content-box; -webkit-border-radius: 4px; -moz-border-radius: 4px;
+}
+#fancybox-content {
+	position: relative; -webkit-box-sizing: content-box; -moz-box-sizing: content-box;
+}
+#fancybox-outer {
+	position: relative; -webkit-box-sizing: content-box; -moz-box-sizing: content-box;
+}
+#fancybox-content {
+	padding: 0px; outline: 0px; border-radius: 4px; border: 0px solid rgb(255, 255, 255); border-image: none; width: 0px; height: 0px; overflow: hidden; z-index: 2102; box-sizing: content-box; -webkit-border-radius: 4px; -moz-border-radius: 4px;
+}
+#fancybox-hide-sel-frame {
+	background: 0px 0px; left: 0px; top: 0px; width: 100%; position: absolute; z-index: 2101;
+}
+#fancybox-close {
+	background: url("../images/fancybox/fancybox.png") -40px 0px; top: -15px; width: 30px; height: 30px; right: -15px; display: none; position: absolute; z-index: 2103; cursor: pointer;
+}
+#fancybox-frame {
+	border: currentColor; border-image: none; width: 100%; height: 100%;
+}
+#fancybox-img {
+	border: currentColor; border-image: none; width: 100%; height: 100%;
+}
+#fancybox-error {
+	font: 400 12px/20px Arial; margin: 0px; padding: 14px; color: rgb(68, 68, 68); font-size-adjust: none; font-stretch: normal;
+}
+#fancybox-img {
+	margin: 0px; padding: 0px; outline: 0px; line-height: 0; vertical-align: top;
+}
+#fancybox-frame {
+	display: block;
+}
+#fancybox-left {
+	background: url("../images/fancybox/blank.gif"); outline: 0px; width: 35%; height: 100%; bottom: 0px; display: none; position: absolute; z-index: 2102; cursor: pointer;
+}
+#fancybox-right {
+	background: url("../images/fancybox/blank.gif"); outline: 0px; width: 35%; height: 100%; bottom: 0px; display: none; position: absolute; z-index: 2102; cursor: pointer;
+}
+#fancybox-left-ico {
+	background-image: url("../images/fancybox/fancybox.png");
+}
+#fancybox-right-ico {
+	background-image: url("../images/fancybox/fancybox.png");
+}
+#fancybox-left {
+	left: 0px;
+}
+#fancybox-right {
+	right: 0px;
+}
+#fancybox-left-ico {
+	left: -9999px; top: 50%; width: 30px; height: 30px; margin-top: -15px; display: block; position: absolute; z-index: 2102; cursor: pointer;
+}
+#fancybox-right-ico {
+	left: -9999px; top: 50%; width: 30px; height: 30px; margin-top: -15px; display: block; position: absolute; z-index: 2102; cursor: pointer;
+}
+#fancybox-left-ico {
+	background-position: -40px -30px;
+}
+#fancybox-right-ico {
+	background-position: -40px -60px;
+}
+#fancybox-left:hover {
+	visibility: visible;
+}
+#fancybox-right:hover {
+	visibility: visible;
+}
+#fancybox-left:hover span {
+	left: 20px;
+}
+#fancybox-right:hover span {
+	left: auto; right: 20px;
+}
+.fancybox-bg {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; width: 20px; height: 20px; position: absolute; z-index: 2001;
+}
+#fancybox-bg-n {
+	left: 0px; top: -20px; width: 100%; background-image: url("../images/fancybox/fancybox-x.png");
+}
+#fancybox-bg-ne {
+	background-position: -40px -162px; top: -20px; right: -20px; background-image: url("../images/fancybox/fancybox.png");
+}
+#fancybox-bg-e {
+	background-position: -20px 0px; top: 0px; height: 100%; right: -20px; background-image: url("../images/fancybox/fancybox-y.png");
+}
+#fancybox-bg-se {
+	background-position: -40px -182px; right: -20px; bottom: -20px; background-image: url("../images/fancybox/fancybox.png");
+}
+#fancybox-bg-s {
+	background-position: 0px -20px; left: 0px; width: 100%; bottom: -20px; background-image: url("../images/fancybox/fancybox-x.png");
+}
+#fancybox-bg-sw {
+	background-position: -40px -142px; left: -20px; bottom: -20px; background-image: url("../images/fancybox/fancybox.png");
+}
+#fancybox-bg-w {
+	left: -20px; top: 0px; height: 100%; background-image: url("../images/fancybox/fancybox-y.png");
+}
+#fancybox-bg-nw {
+	background-position: -40px -122px; left: -20px; top: -20px; background-image: url("../images/fancybox/fancybox.png");
+}
+#fancybox-title {
+	font-family: Lato; font-size: 12px; z-index: 2102;
+}
+.fancybox-title-inside {
+	background: rgb(255, 255, 255); text-align: center; color: rgb(51, 51, 51); padding-bottom: 10px; position: relative;
+}
+.fancybox-title-outside {
+	color: rgb(255, 255, 255); padding-top: 10px;
+}
+.fancybox-title-over {
+	left: 0px; text-align: left; bottom: 0px; color: rgb(255, 255, 255); position: absolute;
+}
+#fancybox-title-over {
+	padding: 10px; display: block; background-image: url("../images/fancybox/fancy_title_over.png");
+}
+.fancybox-title-float {
+	left: 0px; height: 32px; bottom: -20px; position: absolute;
+}
+#fancybox-title-float-wrap {
+	border: currentColor; border-image: none; width: auto; border-collapse: collapse;
+}
+#fancybox-title-float-wrap td {
+	border: currentColor; border-image: none; white-space: nowrap;
+}
+#fancybox-title-float-left {
+	background: url("../images/fancybox/fancybox.png") no-repeat -40px -90px; padding: 0px 0px 0px 15px;
+}
+#fancybox-title-float-main {
+	background: url("../images/fancybox/fancybox-x.png") 0px -40px; padding: 0px 0px 3px; color: rgb(255, 255, 255); line-height: 29px; font-weight: 700;
+}
+#fancybox-title-float-right {
+	background: url("../images/fancybox/fancybox.png") no-repeat -55px -90px; padding: 0px 0px 0px 15px;
+}
+.fancybox-ie6 #fancybox-close {
+	background: 0px 0px;
+}
+.fancybox-ie6 #fancybox-left-ico {
+	background: 0px 0px;
+}
+.fancybox-ie6 #fancybox-right-ico {
+	background: 0px 0px;
+}
+.fancybox-ie6 #fancybox-title-over {
+	background: 0px 0px; -ms-zoom: 1;
+}
+.fancybox-ie6 #fancybox-title-float-left {
+	background: 0px 0px;
+}
+.fancybox-ie6 #fancybox-title-float-main {
+	background: 0px 0px;
+}
+.fancybox-ie6 #fancybox-title-float-right {
+	background: 0px 0px;
+}
+#fancybox-hide-sel-frame {
+	
+}
+.fancybox-ie6 #fancybox-bg-e {
+	
+}
+.fancybox-ie6 #fancybox-bg-w {
+	
+}
+.fancybox-ie6 #fancybox-left {
+	
+}
+.fancybox-ie6 #fancybox-right {
+	
+}
+.fancybox-ie6#fancybox-loading {
+	margin-top: 0px; position: absolute;
+}
+.fancybox-ie6#fancybox-loading div {
+	background: 0px 0px;
+}
+.fancybox-ie .fancybox-bg {
+	background: 0px 0px !important;
+}
+.fancybox-ie #fancybox-bg-n {
+	
+}
+.fancybox-ie #fancybox-bg-ne {
+	
+}
+.fancybox-ie #fancybox-bg-e {
+	
+}
+.fancybox-ie #fancybox-bg-se {
+	
+}
+.fancybox-ie #fancybox-bg-s {
+	
+}
+.fancybox-ie #fancybox-bg-sw {
+	
+}
+.fancybox-ie #fancybox-bg-w {
+	
+}
+.fancybox-ie #fancybox-bg-nw {
+	
+}
+.nivo-box {
+	overflow: hidden;
+}
+.nivo-caption {
+	overflow: hidden;
+}
+.nivoSlider {
+	overflow: hidden;
+}
+.nivoSlider {
+	width: 100%; height: auto; position: relative;
+}
+.nivoSlider img {
+	left: 0px; top: 0px; position: absolute; max-width: none;
+}
+.nivo-main-image {
+	width: 100% !important; display: block !important; position: relative !important;
+}
+.nivoSlider a.nivo-imageLink {
+	background: rgb(255, 255, 255); margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; left: 0px; top: 0px; width: 100%; height: 100%; display: none; position: absolute; z-index: 6; opacity: 0;
+}
+.nivo-box {
+	display: block; position: absolute; z-index: 5;
+}
+.nivo-slice {
+	display: block; position: absolute; z-index: 5;
+}
+.nivo-slice {
+	top: 0px; height: 100%;
+}
+.nivo-box img {
+	display: block;
+}
+.nivo-caption {
+	background: rgb(0, 0, 0); padding: 5px 10px; left: 0px; width: 100%; bottom: 0px; color: rgb(255, 255, 255); display: none; position: absolute; z-index: 8; box-sizing: border-box; opacity: 0.8; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -moz-opacity: .8;
+}
+.nivo-caption p {
+	margin: 0px; padding: 5px;
+}
+.nivo-caption a {
+	display: inline !important;
+}
+.nivo-html-caption {
+	display: none;
+}
+.nivo-directionNav a {
+	top: 45%; position: absolute; z-index: 9; cursor: pointer;
+}
+.nivo-prevNav {
+	left: 0px;
+}
+.nivo-nextNav {
+	right: 0px;
+}
+.nivo-controlNav {
+	padding: 15px 0px; text-align: center;
+}
+.nivo-controlNav a {
+	cursor: pointer;
+}
+.nivo-controlNav a.active {
+	font-weight: 700;
+}
+.dzen_title.tp-caption::after {
+	background: rgb(255, 255, 255); left: 50%; width: 70px; height: 2px; bottom: -30px; margin-left: -35px; display: block; position: absolute; content: "";
+}
+.large_text.tp-caption {
+	border-width: 0px; margin: 0px; font-family: Arial; white-space: nowrap;
+}
+.medium_grey.tp-caption {
+	border-width: 0px; margin: 0px; font-family: Arial; white-space: nowrap;
+}
+.medium_text.tp-caption {
+	border-width: 0px; margin: 0px; font-family: Arial; white-space: nowrap;
+}
+.small_text.tp-caption {
+	border-width: 0px; margin: 0px; font-family: Arial; white-space: nowrap;
+}
+.tp-caption a {
+	transition:0.2s ease-out; color: rgb(255, 115, 2); text-shadow: none; -webkit-transition: all .2s ease-out; -moz-transition: all .2s ease-out; -o-transition: all .2s ease-out;
+}
+.large_text.tp-caption {
+	font-weight: 700; position: absolute; text-shadow: 0px 2px 5px rgba(0,0,0,0.5);
+}
+.medium_grey.tp-caption {
+	font-weight: 700; position: absolute; text-shadow: 0px 2px 5px rgba(0,0,0,0.5);
+}
+.medium_text.tp-caption {
+	font-weight: 700; position: absolute; text-shadow: 0px 2px 5px rgba(0,0,0,0.5);
+}
+.small_text.tp-caption {
+	font-weight: 700; position: absolute; text-shadow: 0px 2px 5px rgba(0,0,0,0.5);
+}
+.very_large_text.tp-caption {
+	font-weight: 700; position: absolute; text-shadow: 0px 2px 5px rgba(0,0,0,0.5);
+}
+.tp-caption a:hover {
+	color: rgb(255, 169, 2);
+}
+.medium_grey.tp-caption {
+	padding: 2px 4px; color: rgb(255, 255, 255); line-height: 20px; font-size: 20px; background-color: rgb(136, 136, 136);
+}
+.small_text.tp-caption {
+	color: rgb(255, 255, 255); line-height: 20px; font-size: 14px;
+}
+.medium_text.tp-caption {
+	color: rgb(255, 255, 255); line-height: 20px; font-size: 20px;
+}
+.large_text.tp-caption {
+	color: rgb(255, 255, 255); line-height: 40px; font-size: 40px;
+}
+.very_big_black.tp-caption {
+	border-width: 0px; margin: 0px; line-height: 60px; font-family: Arial; font-size: 60px; white-space: nowrap;
+}
+.very_big_white.tp-caption {
+	border-width: 0px; margin: 0px; line-height: 60px; font-family: Arial; font-size: 60px; white-space: nowrap;
+}
+.very_large_text.tp-caption {
+	border-width: 0px; margin: 0px; line-height: 60px; font-family: Arial; font-size: 60px; white-space: nowrap;
+}
+.very_large_text.tp-caption {
+	color: rgb(255, 255, 255); letter-spacing: -2px;
+}
+.very_big_white.tp-caption {
+	padding: 1px 4px 0px; color: rgb(255, 255, 255); font-weight: 800; position: absolute; text-shadow: none; background-color: rgb(0, 0, 0);
+}
+.very_big_black.tp-caption {
+	padding: 1px 4px 0px; color: rgb(0, 0, 0); font-weight: 700; position: absolute; text-shadow: none; background-color: rgb(255, 255, 255);
+}
+.modern_medium_fat.tp-caption {
+	border-width: 0px; margin: 0px; line-height: 20px; font-family: "Open Sans",sans-serif; font-size: 24px; font-weight: 800; white-space: nowrap; position: absolute; text-shadow: none;
+}
+.modern_medium_fat_white.tp-caption {
+	border-width: 0px; margin: 0px; line-height: 20px; font-family: "Open Sans",sans-serif; font-size: 24px; font-weight: 800; white-space: nowrap; position: absolute; text-shadow: none;
+}
+.modern_medium_fat.tp-caption {
+	color: rgb(0, 0, 0);
+}
+.modern_medium_fat_white.tp-caption {
+	color: rgb(255, 255, 255);
+}
+.modern_medium_light.tp-caption {
+	border-width: 0px; margin: 0px; color: rgb(0, 0, 0); line-height: 20px; font-family: "Open Sans",sans-serif; font-size: 24px; font-weight: 300; white-space: nowrap; position: absolute; text-shadow: none;
+}
+.modern_big_bluebg.tp-caption {
+	border-width: 0px; margin: 0px; color: rgb(255, 255, 255); line-height: 36px; letter-spacing: 0px; font-family: "Open Sans",sans-serif; font-size: 30px; position: absolute; text-shadow: none;
+}
+.modern_big_redbg.tp-caption {
+	border-width: 0px; margin: 0px; color: rgb(255, 255, 255); line-height: 36px; letter-spacing: 0px; font-family: "Open Sans",sans-serif; font-size: 30px; position: absolute; text-shadow: none;
+}
+.modern_big_bluebg.tp-caption {
+	padding: 3px 10px; font-weight: 800; background-color: rgb(78, 91, 108);
+}
+.modern_big_redbg.tp-caption {
+	padding: 1px 10px 3px; font-weight: 300; background-color: rgb(222, 84, 62);
+}
+.modern_small_text_dark.tp-caption {
+	border-width: 0px; margin: 0px; color: rgb(85, 85, 85); line-height: 22px; font-family: Arial; font-size: 14px; white-space: nowrap; position: absolute; text-shadow: none;
+}
+.boxshadow.tp-caption {
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.5); -moz-box-shadow: 0 0 20px rgba(0, 0, 0, .5); -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+}
+.black.tp-caption {
+	color: rgb(0, 0, 0); text-shadow: none;
+}
+.thinheadline_dark.tp-caption {
+	color: rgba(0, 0, 0, 0.85); font-family: "Open Sans"; font-weight: 300; position: absolute; text-shadow: none; background-color: transparent;
+}
+.thintext_dark.tp-caption {
+	color: rgba(0, 0, 0, 0.85); font-family: "Open Sans"; font-weight: 300; position: absolute; text-shadow: none; background-color: transparent;
+}
+.noshadow.tp-caption {
+	text-shadow: none;
+}
+.thinheadline_dark.tp-caption {
+	line-height: 30px; font-size: 30px;
+}
+.thintext_dark.tp-caption {
+	line-height: 26px; font-size: 16px;
+}
+.largeblackbg.tp-caption {
+	border-radius: 0px; background-color: rgb(0, 0, 0);
+}
+.largeblackbg.tp-caption {
+	padding: 0px 20px; color: rgb(255, 255, 255); line-height: 70px; font-family: "Open Sans"; font-size: 50px; font-weight: 300; position: absolute; text-shadow: none; -webkit-border-radius: 0; -moz-border-radius: 0;
+}
+.largepinkbg.tp-caption {
+	padding: 0px 20px; color: rgb(255, 255, 255); line-height: 70px; font-family: "Open Sans"; font-size: 50px; font-weight: 300; position: absolute; text-shadow: none; -webkit-border-radius: 0; -moz-border-radius: 0;
+}
+.largepinkbg.tp-caption {
+	border-radius: 0px; background-color: rgb(219, 67, 96);
+}
+.largewhitebg.tp-caption {
+	border-radius: 0px; color: rgb(0, 0, 0); text-shadow: none; background-color: rgb(255, 255, 255);
+}
+.largegreenbg.tp-caption {
+	padding: 0px 20px; line-height: 70px; font-family: "Open Sans"; font-size: 50px; font-weight: 300; position: absolute; -webkit-border-radius: 0; -moz-border-radius: 0;
+}
+.largewhitebg.tp-caption {
+	padding: 0px 20px; line-height: 70px; font-family: "Open Sans"; font-size: 50px; font-weight: 300; position: absolute; -webkit-border-radius: 0; -moz-border-radius: 0;
+}
+.largegreenbg.tp-caption {
+	border-radius: 0px; color: rgb(255, 255, 255); text-shadow: none; background-color: rgb(103, 174, 115);
+}
+.excerpt.tp-caption {
+	border-width: 0px; margin: 0px; padding: 1px 4px 0px; text-decoration: none; text-shadow: none;
+}
+.large_bold_grey.tp-caption {
+	border-width: 0px; margin: 0px; padding: 1px 4px 0px; text-decoration: none; text-shadow: none;
+}
+.excerpt.tp-caption {
+	border-color: rgb(255, 255, 255); width: 150px; height: auto; color: rgb(255, 255, 255); line-height: 36px; letter-spacing: -1.5px; font-family: Arial; font-size: 36px; font-weight: 700; white-space: normal !important; background-color: rgba(0, 0, 0, 1);
+}
+.large_bold_grey.tp-caption {
+	border-color: rgb(255, 214, 88); color: rgb(102, 102, 102); line-height: 60px; font-family: "Open Sans"; font-size: 60px; font-weight: 800; background-color: transparent;
+}
+.medium_thin_grey.tp-caption {
+	margin: 0px; padding: 1px 4px 0px; border: 0px rgb(255, 214, 88); font-family: "Open Sans"; font-weight: 300; text-decoration: none; text-shadow: none; background-color: transparent;
+}
+.small_thin_grey.tp-caption {
+	margin: 0px; padding: 1px 4px 0px; border: 0px rgb(255, 214, 88); font-family: "Open Sans"; font-weight: 300; text-decoration: none; text-shadow: none; background-color: transparent;
+}
+.medium_thin_grey.tp-caption {
+	color: rgb(102, 102, 102); line-height: 30px; font-size: 34px;
+}
+.small_thin_grey.tp-caption {
+	color: rgb(117, 117, 117); line-height: 26px; font-size: 18px;
+}
+.lightgrey_divider.tp-caption {
+	border: 0px rgb(34, 34, 34); width: 370px; height: 3px; text-decoration: none; background-color: rgba(235, 235, 235, 1);
+}
+.large_bold_darkblue.tp-caption {
+	border: 0px rgb(255, 214, 88); font-family: "Open Sans"; font-weight: 800; text-decoration: none;
+}
+.medium_bg_darkblue.tp-caption {
+	border: 0px rgb(255, 214, 88); font-family: "Open Sans"; font-weight: 800; text-decoration: none;
+}
+.large_bold_darkblue.tp-caption {
+	color: rgb(52, 73, 94); line-height: 60px; font-size: 58px; background-color: transparent;
+}
+.medium_bg_darkblue.tp-caption {
+	padding: 10px; color: rgb(255, 255, 255); line-height: 20px; font-size: 20px; background-color: rgb(52, 73, 94);
+}
+.medium_bold_red.tp-caption {
+	padding: 0px; border: 0px rgb(255, 214, 88); color: rgb(227, 58, 12); background-color: transparent;
+}
+.medium_light_red.tp-caption {
+	padding: 0px; border: 0px rgb(255, 214, 88); color: rgb(227, 58, 12); background-color: transparent;
+}
+.medium_bold_red.tp-caption {
+	line-height: 30px; font-family: "Open Sans"; font-size: 24px; font-weight: 800; text-decoration: none;
+}
+.medium_light_red.tp-caption {
+	line-height: 26px; font-family: "Open Sans"; font-size: 21px; font-weight: 300; text-decoration: none;
+}
+.medium_bg_orange.tp-caption {
+	padding: 10px; border: 0px rgb(255, 214, 88); font-family: "Open Sans"; text-decoration: none;
+}
+.medium_bg_red.tp-caption {
+	padding: 10px; border: 0px rgb(255, 214, 88); font-family: "Open Sans"; text-decoration: none;
+}
+.medium_bg_red.tp-caption {
+	color: rgb(255, 255, 255); line-height: 20px; font-size: 20px; font-weight: 800; background-color: rgb(227, 58, 12);
+}
+.medium_bold_orange.tp-caption {
+	border: 0px rgb(255, 214, 88); color: rgb(243, 156, 18); line-height: 30px; font-family: "Open Sans"; font-size: 24px; font-weight: 800; text-decoration: none; background-color: transparent;
+}
+.medium_bg_orange.tp-caption {
+	color: rgb(255, 255, 255); line-height: 20px; font-size: 20px; font-weight: 800; background-color: rgb(243, 156, 18);
+}
+.grassfloor.tp-caption {
+	border: 0px rgb(34, 34, 34); width: 4000px; height: 150px; text-decoration: none; background-color: rgba(160, 179, 151, 1);
+}
+.large_bold_white.tp-caption {
+	border: 0px rgb(255, 214, 88); color: rgb(255, 255, 255); font-family: "Open Sans"; text-decoration: none; background-color: transparent;
+}
+.medium_light_white.tp-caption {
+	border: 0px rgb(255, 214, 88); color: rgb(255, 255, 255); font-family: "Open Sans"; text-decoration: none; background-color: transparent;
+}
+.large_bold_white.tp-caption {
+	line-height: 60px; font-size: 58px; font-weight: 800;
+}
+.medium_light_white.tp-caption {
+	padding: 0px; line-height: 36px; font-size: 30px; font-weight: 300;
+}
+.mediumlarge_light_white.tp-caption {
+	padding: 0px; border: 0px rgb(255, 214, 88); color: rgb(255, 255, 255); line-height: 40px; font-family: "Open Sans"; font-size: 34px; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.mediumlarge_light_white_center.tp-caption {
+	padding: 0px; border: 0px rgb(255, 214, 88); color: rgb(255, 255, 255); line-height: 40px; font-family: "Open Sans"; font-size: 34px; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.mediumlarge_light_white_center.tp-caption {
+	text-align: center;
+}
+.medium_bg_asbestos.tp-caption {
+	padding: 10px; border: 0px rgb(255, 214, 88); color: rgb(255, 255, 255); line-height: 20px; font-family: "Open Sans"; font-size: 20px; font-weight: 800; text-decoration: none; background-color: rgb(127, 140, 141);
+}
+.large_bold_black.tp-caption {
+	border: 0px rgb(255, 214, 88); font-family: "Open Sans"; text-decoration: none; background-color: transparent;
+}
+.medium_light_black.tp-caption {
+	border: 0px rgb(255, 214, 88); font-family: "Open Sans"; text-decoration: none; background-color: transparent;
+}
+.medium_light_black.tp-caption {
+	padding: 0px; color: rgb(0, 0, 0); line-height: 36px; font-size: 30px; font-weight: 300;
+}
+.large_bold_black.tp-caption {
+	color: rgb(0, 0, 0); line-height: 60px; font-size: 58px; font-weight: 800;
+}
+.mediumlarge_light_darkblue.tp-caption {
+	border-color: rgb(255, 214, 88); padding: 0px; font-weight: 300; background-color: transparent;
+}
+.small_light_white.tp-caption {
+	border-color: rgb(255, 214, 88); padding: 0px; font-weight: 300; background-color: transparent;
+}
+.mediumlarge_light_darkblue.tp-caption {
+	border-width: 0px; color: rgb(52, 73, 94); line-height: 40px; font-family: "Open Sans"; font-size: 34px; text-decoration: none;
+}
+.large_bg_black.tp-caption {
+	border-width: 0px; color: rgb(255, 255, 255); font-family: "Open Sans"; text-decoration: none;
+}
+.small_light_white.tp-caption {
+	border-width: 0px; color: rgb(255, 255, 255); font-family: "Open Sans"; text-decoration: none;
+}
+.small_light_white.tp-caption {
+	line-height: 28px; font-size: 17px;
+}
+.roundedimage.tp-caption {
+	border: 0px rgb(34, 34, 34);
+}
+.large_bg_black.tp-caption {
+	border-color: rgb(255, 214, 88); padding: 10px 20px 15px; line-height: 40px; font-size: 40px; font-weight: 800; background-color: rgb(0, 0, 0);
+}
+.mediumwhitebg.tp-caption {
+	padding: 5px 15px 10px; border: 0px rgb(0, 0, 0); color: rgb(0, 0, 0); line-height: 30px; font-family: "Open Sans"; font-size: 30px; font-weight: 300; text-decoration: none; text-shadow: none; background-color: rgb(255, 255, 255);
+}
+.dzen_button.tp-caption {
+	border-width: 0px; margin: 0px; color: rgb(255, 255, 255); font-family: Roboto; font-weight: 300; position: absolute;
+}
+.dzen_text.tp-caption {
+	border-width: 0px; margin: 0px; color: rgb(255, 255, 255); font-family: Roboto; font-weight: 300; position: absolute;
+}
+.dzen_title.tp-caption {
+	border-width: 0px; margin: 0px; color: rgb(255, 255, 255); font-family: Roboto; font-weight: 300; position: absolute;
+}
+.dzen_title.tp-caption {
+	line-height: 38px; font-size: 38px; white-space: nowrap;
+}
+.dzen_text.tp-caption {
+	line-height: 32px; font-size: 24px;
+}
+.dzen_button.tp-caption {
+	background: rgb(5, 106, 178); padding: 15px 30px; border-radius: 3px; line-height: 20px; font-size: 20px; white-space: nowrap; cursor: pointer; -webkit-border-radius: 3px; -moz-border-radius: 3px;
+}
+.dzen_button.tp-caption:hover {
+	background: rgb(80, 85, 88);
+}
